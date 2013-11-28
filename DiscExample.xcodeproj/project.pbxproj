@@ -17,22 +17,9 @@
 		EF9C348A1845CE9300C18342 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9C34881845CE9300C18342 /* Main_iPad.storyboard */; };
 		EF9C348D1845CE9300C18342 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9C348C1845CE9300C18342 /* ViewController.m */; };
 		EF9C348F1845CE9300C18342 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9C348E1845CE9300C18342 /* Images.xcassets */; };
-		EF9C34961845CE9300C18342 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9C34951845CE9300C18342 /* XCTest.framework */; };
-		EF9C34971845CE9300C18342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9C34731845CE9300C18342 /* Foundation.framework */; };
-		EF9C34981845CE9300C18342 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9C34771845CE9300C18342 /* UIKit.framework */; };
-		EF9C34A01845CE9300C18342 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF9C349E1845CE9300C18342 /* InfoPlist.strings */; };
-		EF9C34A21845CE9300C18342 /* DiscExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9C34A11845CE9300C18342 /* DiscExampleTests.m */; };
+		EF9C34AD1845CF8F00C18342 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF9C34AC1845CF8F00C18342 /* test.jpg */; };
+		EF9C34B01845D32B00C18342 /* DiscView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9C34AF1845D32B00C18342 /* DiscView.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		EF9C34991845CE9300C18342 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EF9C34681845CE9300C18342 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EF9C346F1845CE9300C18342;
-			remoteInfo = DiscExample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EF9C34701845CE9300C18342 /* DiscExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,11 +37,10 @@
 		EF9C348B1845CE9300C18342 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EF9C348C1845CE9300C18342 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EF9C348E1845CE9300C18342 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EF9C34941845CE9300C18342 /* DiscExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9C34951845CE9300C18342 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EF9C349D1845CE9300C18342 /* DiscExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiscExampleTests-Info.plist"; sourceTree = "<group>"; };
-		EF9C349F1845CE9300C18342 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EF9C34A11845CE9300C18342 /* DiscExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscExampleTests.m; sourceTree = "<group>"; };
+		EF9C34AC1845CF8F00C18342 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		EF9C34AE1845D32B00C18342 /* DiscView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscView.h; sourceTree = "<group>"; };
+		EF9C34AF1845D32B00C18342 /* DiscView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,16 +54,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF9C34911845CE9300C18342 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF9C34961845CE9300C18342 /* XCTest.framework in Frameworks */,
-				EF9C34981845CE9300C18342 /* UIKit.framework in Frameworks */,
-				EF9C34971845CE9300C18342 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				EF9C34791845CE9300C18342 /* DiscExample */,
-				EF9C349B1845CE9300C18342 /* DiscExampleTests */,
 				EF9C34721845CE9300C18342 /* Frameworks */,
 				EF9C34711845CE9300C18342 /* Products */,
 			);
@@ -95,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				EF9C34701845CE9300C18342 /* DiscExample.app */,
-				EF9C34941845CE9300C18342 /* DiscExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +88,7 @@
 		EF9C34791845CE9300C18342 /* DiscExample */ = {
 			isa = PBXGroup;
 			children = (
+				EF9C34AB1845CF8F00C18342 /* Resources */,
 				EF9C34821845CE9300C18342 /* AppDelegate.h */,
 				EF9C34831845CE9300C18342 /* AppDelegate.m */,
 				EF9C34851845CE9300C18342 /* Main_iPhone.storyboard */,
@@ -122,6 +97,8 @@
 				EF9C348C1845CE9300C18342 /* ViewController.m */,
 				EF9C348E1845CE9300C18342 /* Images.xcassets */,
 				EF9C347A1845CE9300C18342 /* Supporting Files */,
+				EF9C34AE1845D32B00C18342 /* DiscView.h */,
+				EF9C34AF1845D32B00C18342 /* DiscView.m */,
 			);
 			path = DiscExample;
 			sourceTree = "<group>";
@@ -137,22 +114,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EF9C349B1845CE9300C18342 /* DiscExampleTests */ = {
+		EF9C34AB1845CF8F00C18342 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EF9C34A11845CE9300C18342 /* DiscExampleTests.m */,
-				EF9C349C1845CE9300C18342 /* Supporting Files */,
+				EF9C34AC1845CF8F00C18342 /* test.jpg */,
 			);
-			path = DiscExampleTests;
-			sourceTree = "<group>";
-		};
-		EF9C349C1845CE9300C18342 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EF9C349D1845CE9300C18342 /* DiscExampleTests-Info.plist */,
-				EF9C349E1845CE9300C18342 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,24 +142,6 @@
 			productReference = EF9C34701845CE9300C18342 /* DiscExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EF9C34931845CE9300C18342 /* DiscExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EF9C34A81845CE9300C18342 /* Build configuration list for PBXNativeTarget "DiscExampleTests" */;
-			buildPhases = (
-				EF9C34901845CE9300C18342 /* Sources */,
-				EF9C34911845CE9300C18342 /* Frameworks */,
-				EF9C34921845CE9300C18342 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EF9C349A1845CE9300C18342 /* PBXTargetDependency */,
-			);
-			name = DiscExampleTests;
-			productName = DiscExampleTests;
-			productReference = EF9C34941845CE9300C18342 /* DiscExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,11 +149,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
-				TargetAttributes = {
-					EF9C34931845CE9300C18342 = {
-						TestTargetID = EF9C346F1845CE9300C18342;
-					};
-				};
 			};
 			buildConfigurationList = EF9C346B1845CE9300C18342 /* Build configuration list for PBXProject "DiscExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -220,7 +164,6 @@
 			projectRoot = "";
 			targets = (
 				EF9C346F1845CE9300C18342 /* DiscExample */,
-				EF9C34931845CE9300C18342 /* DiscExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,17 +174,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF9C348A1845CE9300C18342 /* Main_iPad.storyboard in Resources */,
+				EF9C34AD1845CF8F00C18342 /* test.jpg in Resources */,
 				EF9C348F1845CE9300C18342 /* Images.xcassets in Resources */,
 				EF9C34871845CE9300C18342 /* Main_iPhone.storyboard in Resources */,
 				EF9C347E1845CE9300C18342 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF9C34921845CE9300C18342 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF9C34A01845CE9300C18342 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,26 +191,11 @@
 				EF9C348D1845CE9300C18342 /* ViewController.m in Sources */,
 				EF9C34841845CE9300C18342 /* AppDelegate.m in Sources */,
 				EF9C34801845CE9300C18342 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF9C34901845CE9300C18342 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF9C34A21845CE9300C18342 /* DiscExampleTests.m in Sources */,
+				EF9C34B01845D32B00C18342 /* DiscView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EF9C349A1845CE9300C18342 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EF9C346F1845CE9300C18342 /* DiscExample */;
-			targetProxy = EF9C34991845CE9300C18342 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EF9C347C1845CE9300C18342 /* InfoPlist.strings */ = {
@@ -299,14 +220,6 @@
 				EF9C34891845CE9300C18342 /* Base */,
 			);
 			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		EF9C349E1845CE9300C18342 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF9C349F1845CE9300C18342 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -412,48 +325,6 @@
 			};
 			name = Release;
 		};
-		EF9C34A91845CE9300C18342 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DiscExample.app/DiscExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DiscExample/DiscExample-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "DiscExampleTests/DiscExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		EF9C34AA1845CE9300C18342 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DiscExample.app/DiscExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DiscExample/DiscExample-Prefix.pch";
-				INFOPLIST_FILE = "DiscExampleTests/DiscExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -471,14 +342,6 @@
 			buildConfigurations = (
 				EF9C34A61845CE9300C18342 /* Debug */,
 				EF9C34A71845CE9300C18342 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		EF9C34A81845CE9300C18342 /* Build configuration list for PBXNativeTarget "DiscExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EF9C34A91845CE9300C18342 /* Debug */,
-				EF9C34AA1845CE9300C18342 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
